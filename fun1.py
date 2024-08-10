@@ -463,7 +463,7 @@ class whatsappMessanger(messenger):
 lm=internalMessage()
 lm.send_message()
 lm.receive_message()'''
-'''try:
+try:
     a=int(input('enter a number: '))  
     b=int(input('enter a number: '))
     c=a/b
@@ -475,7 +475,7 @@ except ValueError:
 except IndentationError:
     print('improper identation') 
 except NameError:
-    print('name error') '''
+    print('name error') 
 '''try:
     marks=int(input('enetr marks: '))
     if marks<0 or marks>100:

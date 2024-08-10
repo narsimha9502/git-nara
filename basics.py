@@ -219,10 +219,130 @@ print(sum)'''
         return 'invalid operation'
 res = simplecal(10,20,'*')
 print(res)'''
-num=20
+'''num=20
 num2=24
 per=(num/num2)*100
-print(per)        
+print(per)  '''
+'''i=1
+while i<5:
+    print(i)
+    i+=1 '''
+'''i=0
+while i<3:
+    i+=1
+    print(i)
+    if i==2:
+        break''' 
+'''x=5
+while x>0:
+    x-=1
+    if x==2:
+        continue
+    print(x) '''
+'''count=0
+while count<5:
+    print("hello")
+    count+=1'''
+'''n=10
+while n>0:
+    n-=1
+    if n==5:
+        break
+    print(n) '''
+'''i=0
+while i<3:
+    print(i)
+    i+=1
+else:
+    print("done")'''
+
+'''i=7
+while i>=1:
+    print(i)
+    i-=1
+print('program completed..') '''
+'''n=int(input('enter a number:'))
+i=10
+while i<=n:
+    print(i) 
+    i-=1'''
+# while loop first 10 even numbers
+'''n=2
+while n<=20:
+    print(n)
+    n+=2'''
+# first 10 odd numbers while loop
+'''n=1
+while n<=20:
+    print(n)
+    n+=2'''
+# first 10 natural numbers while loop
+'''i=1
+while i<=10:
+    print(i)
+    i+=1'''
+# first 10 whole numbers while loop
+'''i=0
+while i<=10:
+    print(i)
+    i+=1'''
+# write a program to print first 10 numbers and squres using while loop
+'''i=1
+print('numnbers\t\tsqures')
+while i<=10:
+    
+    print(i,'\t\t\t\t',i**2)
+    i+=1 '''
+#write a while loop series like 10,20,30
+'''i=10
+while i<=300:
+    print(i)
+    i+=10 '''
+#series like 105,98,91...
+'''i=105
+while i>=7:
+    print(i,end=(','))
+    i-=7'''
+#first 10 numbers in reverse order
+'''i=int(input('enter a number:'))
+while i>=1:
+    print(i)
+    i-=1'''
+# to print first 10 natural numbers sum
+'''i=10
+sum=0
+while i>=1:
+    sum+=i
+    i-=1
+    print(sum)'''
+# lcm
+'''x = int (input('enter a number:'))
+y = int (input('enter a number:'))
+if x>y:
+    big=x
+else:
+    big=y
+while True:
+    if (big%x==0) and (big%y==0):
+        lcm = big
+        break
+    big=big+1
+print(lcm) ''' 
+#factorial of number using recursion
+def factorial(n):
+    if n==1:
+        return n
+    elif n==0:
+        return('factorial of zero is one')
+    else:
+        return n*factorial(n-1) 
+r=factorial(7)
+print(r)     
+
+
+
+
+
 
 
 
